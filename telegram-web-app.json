@@ -17,5 +17,12 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "telegram": {
+    "bot_username": "gifttgfarm_bot",
+    "web_app_url": "https://ivxx420.github.io/",
+    "features": {
+      "stars": true
+    }
+  }
 } 
