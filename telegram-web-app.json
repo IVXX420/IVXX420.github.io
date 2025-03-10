@@ -51,7 +51,8 @@
       "is_visible": true
     },
     "menu_button": {
-      "is_visible": true
+      "is_visible": true,
+      "url": "https://ivxx420.github.io"
     },
     "stars": {
       "enabled": true,
@@ -61,7 +62,17 @@
       "description": "Активация фарминга GIFT токенов",
       "success_message": "Фарм успешно активирован!",
       "error_message": "Ошибка при активации фарма",
-      "insufficient_message": "Недостаточно звезд для активации"
+      "insufficient_message": "Недостаточно звезд для активации",
+      "payment_methods": ["stars"],
+      "test_mode": false,
+      "provider_token": "",
+      "prices": [
+        {
+          "label": "Активация фарма",
+          "amount": 10,
+          "currency": "STARS"
+        }
+      ]
     }
   }
 } 
