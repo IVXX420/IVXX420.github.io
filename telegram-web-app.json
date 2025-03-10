@@ -44,7 +44,21 @@
       "enabled": true,
       "min_amount": 10,
       "max_amount": 1000,
-      "currency": "STARS"
+      "currency": "XTR",
+      "description": "Активация фарминга GIFT токенов",
+      "success_message": "Фарм успешно активирован!",
+      "error_message": "Ошибка при активации фарма",
+      "insufficient_message": "Недостаточно звезд для активации",
+      "payment_methods": ["stars"],
+      "test_mode": false,
+      "provider_token": "",
+      "prices": [
+        {
+          "label": "Активация фарма",
+          "amount": 10,
+          "currency": "XTR"
+        }
+      ]
     }
   }
 } 
