@@ -42,10 +42,10 @@
     "payment": {
       "provider": "telegram",
       "enabled": true,
-      "min_amount": 1,
+      "min_amount": 0.1,
       "max_amount": 1000,
       "currency": "TON",
-      "description": "Активация фарминга GIFT токенов",
+      "description": "Активация фарминга GIFT токенов. Цена растет с каждой активацией!",
       "success_message": "Фарм успешно активирован!",
       "error_message": "Ошибка при активации фарма",
       "insufficient_message": "Недостаточно TON для активации",
@@ -55,7 +55,7 @@
       "prices": [
         {
           "label": "Активация фарма",
-          "amount": 1,
+          "amount": 0.1,
           "currency": "TON"
         }
       ]
