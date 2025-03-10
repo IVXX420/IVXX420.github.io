@@ -22,7 +22,7 @@
     "version": "6.0",
     "platform": "ios",
     "color_scheme": "dark",
-    "bot_username": "your_bot_username",
+    "bot_username": "gifttgfarm_bot",
     "start_parameter": "start",
     "init_data": "",
     "init_data_unsafe": {
@@ -52,11 +52,6 @@
     },
     "menu_button": {
       "is_visible": true
-    },
-    "stars": {
-      "enabled": true,
-      "min_amount": 10,
-      "max_amount": 1000
     }
   }
 } 
