@@ -2,77 +2,49 @@
   "name": "GIFT Farm",
   "short_name": "GIFT Farm",
   "description": "Farm GIFT tokens with your NFTs",
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "icons": [
     {
-      "src": "logo192.png",
+      "src": "icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "logo512.png",
+      "src": "icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
   "telegram_web_app": {
-    "version": "6.0",
-    "platform": "ios",
-    "color_scheme": "dark",
-    "bot_username": "gifttgfarm_bot",
-    "start_parameter": "start",
-    "init_data": "",
-    "init_data_unsafe": {
-      "user": {
-        "id": 0,
-        "first_name": "",
-        "last_name": "",
-        "username": "",
-        "language_code": "",
-        "start_param": ""
+    "name": "GIFT Farm",
+    "short_name": "GIFT Farm",
+    "description": "Farm GIFT tokens with your NFTs",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
       },
-      "auth_date": 0,
-      "hash": ""
-    },
-    "main_button": {
-      "text": "Подключить кошелек",
-      "color": "#2481cc",
-      "text_color": "#ffffff",
-      "is_active": true,
-      "is_visible": true
-    },
-    "back_button": {
-      "is_visible": true
-    },
-    "settings_button": {
-      "is_visible": true
-    },
-    "menu_button": {
-      "is_visible": true,
-      "url": "https://ivxx420.github.io"
-    },
-    "stars": {
+      {
+        "src": "icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "payment": {
+      "provider": "telegram_stars",
       "enabled": true,
       "min_amount": 10,
       "max_amount": 1000,
-      "currency": "STARS",
-      "description": "Активация фарминга GIFT токенов",
-      "success_message": "Фарм успешно активирован!",
-      "error_message": "Ошибка при активации фарма",
-      "insufficient_message": "Недостаточно звезд для активации",
-      "payment_methods": ["stars"],
-      "test_mode": false,
-      "provider_token": "",
-      "prices": [
-        {
-          "label": "Активация фарма",
-          "amount": 10,
-          "currency": "STARS"
-        }
-      ]
+      "currency": "STARS"
     }
   }
 } 
