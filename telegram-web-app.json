@@ -52,6 +52,11 @@
     },
     "menu_button": {
       "is_visible": true
+    },
+    "stars": {
+      "enabled": true,
+      "min_amount": 10,
+      "max_amount": 1000
     }
   }
 } 
