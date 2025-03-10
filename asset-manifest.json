@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.487f613d.css",
-    "main.js": "/static/js/main.ea736736.js",
-    "static/js/206.e980af39.chunk.js": "/static/js/206.e980af39.chunk.js",
-    "index.html": "/index.html"
+    "main.css": "/ton-gift-farming.github.io/static/css/main.487f613d.css",
+    "main.js": "/ton-gift-farming.github.io/static/js/main.8069e325.js",
+    "static/js/206.e980af39.chunk.js": "/ton-gift-farming.github.io/static/js/206.e980af39.chunk.js",
+    "index.html": "/ton-gift-farming.github.io/index.html"
   },
   "entrypoints": [
     "static/css/main.487f613d.css",
-    "static/js/main.ea736736.js"
+    "static/js/main.8069e325.js"
   ]
 }
