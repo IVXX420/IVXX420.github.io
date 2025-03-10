@@ -42,21 +42,21 @@
     "payment": {
       "provider": "telegram",
       "enabled": true,
-      "min_amount": 10,
+      "min_amount": 1,
       "max_amount": 1000,
-      "currency": "XTR",
+      "currency": "TON",
       "description": "Активация фарминга GIFT токенов",
       "success_message": "Фарм успешно активирован!",
       "error_message": "Ошибка при активации фарма",
-      "insufficient_message": "Недостаточно звезд для активации",
-      "payment_methods": ["stars"],
+      "insufficient_message": "Недостаточно TON для активации",
+      "payment_methods": ["ton"],
       "test_mode": false,
       "provider_token": "",
       "prices": [
         {
           "label": "Активация фарма",
-          "amount": 10,
-          "currency": "XTR"
+          "amount": 1,
+          "currency": "TON"
         }
       ]
     }
