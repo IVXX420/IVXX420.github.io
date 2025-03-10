@@ -40,7 +40,7 @@
       }
     ],
     "payment": {
-      "provider": "telegram_stars",
+      "provider": "telegram",
       "enabled": true,
       "min_amount": 10,
       "max_amount": 1000,
