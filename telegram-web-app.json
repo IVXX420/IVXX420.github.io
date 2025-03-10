@@ -2,27 +2,61 @@
   "name": "GIFT Farm",
   "short_name": "GIFT Farm",
   "description": "Farm GIFT tokens with your NFTs",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
-  "background_color": "#000000",
   "theme_color": "#000000",
+  "background_color": "#ffffff",
   "icons": [
     {
-      "src": "icon-192x192.png",
+      "src": "logo192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "icon-512x512.png",
+      "src": "logo512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
-  "telegram": {
-    "bot_username": "gifttgfarm_bot",
-    "web_app_url": "https://ivxx420.github.io/",
-    "features": {
-      "stars": true
+  "telegram_web_app": {
+    "version": "6.0",
+    "platform": "ios",
+    "color_scheme": "dark",
+    "bot_username": "your_bot_username",
+    "start_parameter": "start",
+    "init_data": "",
+    "init_data_unsafe": {
+      "user": {
+        "id": 0,
+        "first_name": "",
+        "last_name": "",
+        "username": "",
+        "language_code": "",
+        "start_param": ""
+      },
+      "auth_date": 0,
+      "hash": ""
+    },
+    "main_button": {
+      "text": "Подключить кошелек",
+      "color": "#2481cc",
+      "text_color": "#ffffff",
+      "is_active": true,
+      "is_visible": true
+    },
+    "back_button": {
+      "is_visible": true
+    },
+    "settings_button": {
+      "is_visible": true
+    },
+    "menu_button": {
+      "is_visible": true
+    },
+    "stars": {
+      "enabled": true,
+      "min_amount": 10,
+      "max_amount": 1000
     }
   }
 } 
