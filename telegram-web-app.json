@@ -56,7 +56,12 @@
     "stars": {
       "enabled": true,
       "min_amount": 10,
-      "max_amount": 1000
+      "max_amount": 1000,
+      "currency": "STARS",
+      "description": "Активация фарминга GIFT токенов",
+      "success_message": "Фарм успешно активирован!",
+      "error_message": "Ошибка при активации фарма",
+      "insufficient_message": "Недостаточно звезд для активации"
     }
   }
 } 
