@@ -1,19 +1,39 @@
 {
-  "name": "gift-farm",
+  "name": "ton-dapp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "typescript": "~5.7.2",
-    "vite": "^6.2.0"
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@tonclient/core": "^1.30.0",
+    "@tonclient/lib-web": "^1.30.0",
     "@tonconnect/sdk": "^3.0.7",
-    "@tonconnect/ui-react": "^2.0.12"
+    "@tonconnect/ui-react": "^2.0.12",
+    "axios": "^1.8.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "ton": "^13.9.0",
+    "ton-core": "^0.53.0",
+    "tonweb": "^0.0.66"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "gh-pages": "^6.3.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.6"
   }
 }

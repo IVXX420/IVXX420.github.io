@@ -1,29 +1,19 @@
 import { TonConnectButton } from '@tonconnect/ui-react'
-import { useTonConnect } from './hooks/useTonConnect'
+import { NFTGallery } from './components/NFTGallery'
 import './App.css'
 
-function App() {
-  const { connected } = useTonConnect()
+// Тестовая коллекция NFT Whales Club
+const TEST_COLLECTION_ADDRESS = 'EQDk2VTvn04SUKJrW7rXahzdF8_Qi6utb0wj43InjABPAY-7'
 
+function App() {
   return (
-    <div className="container">
-      <header className="header">
-        <h1>TON Wallet Connection</h1>
+    <div className="app">
+      <header>
         <TonConnectButton />
       </header>
-      
-      <main className="main">
-        {connected ? (
-          <div className="connected-message">
-            <h2>Wallet Successfully Connected! 🎉</h2>
-            <p>You can now interact with the TON blockchain</p>
-          </div>
-        ) : (
-          <div className="welcome-message">
-            <h2>Welcome to TON DApp</h2>
-            <p>Please connect your Tonkeeper wallet to continue</p>
-          </div>
-        )}
+      <main>
+        <h1>TON NFT Gallery</h1>
+        <NFTGallery collectionAddress={TEST_COLLECTION_ADDRESS} />
       </main>
     </div>
   )

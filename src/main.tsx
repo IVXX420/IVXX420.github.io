@@ -5,7 +5,7 @@ import App from './App'
 import './index.css'
 
 // Manifest URL for TON Connect
-const manifestUrl = 'https://ton-connect.github.io/demo-dapp-with-react-ui/tonconnect-manifest.json'
+const manifestUrl = 'https://ivxx420.github.io/tonconnect-manifest.json'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

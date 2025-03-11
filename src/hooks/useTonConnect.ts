@@ -6,5 +6,11 @@ export function useTonConnect() {
   return {
     connected: tonConnectUI.connected,
     wallet: tonConnectUI.account,
+    connect: () => {
+      tonConnectUI.connectWallet()
+    },
+    disconnect: () => {
+      tonConnectUI.disconnect()
+    }
   }
 } 
